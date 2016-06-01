@@ -1,0 +1,29 @@
+{
+  "name": "schema-inspector-anyof",
+  "version": "1.0.0",
+  "description": "Custom-Checker \"anyOf\" for Schema-Inspector",
+  "main": "index.js",
+  "dependencies": {
+    "schema-inspector": "^1.6.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joergpatz/schema-inspector-anyof.git"
+  },
+  "keywords": [
+    "javascript",
+    "schema",
+    "json",
+    "anyOf"
+  ],
+  "author": "Joerg Patzer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joergpatz/schema-inspector-anyof/issues"
+  },
+  "homepage": "https://github.com/joergpatz/schema-inspector-anyof#readme"
+}
