@@ -6,7 +6,7 @@ This ES6 module will give you the ability to validate a collection of items agai
 ## Install
 
 ```bash
-$ npm i schema-inspector-anyof
+$ npm i schema-inspector-anyOf
 ```
 
 ## Example:
