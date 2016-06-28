@@ -31,7 +31,7 @@ export default function (schemas, candidates) {
 
     for (let result of resultGenerator(schemas, candidates)) {
         if (!result.valid) {
-            this.report('candidate ' + result.index + ' ' + result.format());
+            this.report('candidate at index ' + result.index + ' ' + result.format());
             return false;
         }
     }
