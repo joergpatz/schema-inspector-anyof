@@ -1,6 +1,6 @@
 {
   "name": "schema-inspector-anyOf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom-Checker \"anyOf\" for Schema-Inspector",
   "main": "index.js",
   "scripts": {
