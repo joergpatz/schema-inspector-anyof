@@ -13,7 +13,7 @@ $ npm i schema-inspector-anyof
 
 ```javascript
 import SchemaInspector from 'schema-inspector';
-import anyOf from 'schema-inspector-anyof';
+import anyOf from 'schema-inspector-anyOf';
 
 const SubSchema1 = {
     type: 'object',
