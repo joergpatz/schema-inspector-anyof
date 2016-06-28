@@ -1,5 +1,5 @@
 {
-  "name": "schema-inspector-anyof",
+  "name": "schema-inspector-anyOf",
   "version": "1.0.0",
   "description": "Custom-Checker \"anyOf\" for Schema-Inspector",
   "main": "index.js",
