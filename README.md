@@ -59,7 +59,10 @@ const sampleData = {
     ]
 };
 
-const result = SchemaInspector.validate(SampleSchema, sampleData);
+SchemaInspector.validate(SampleSchema, sampleData); // Valid
+
+sampleData.items.push({customSchemaObject3: 'Candidate 3'});
+SchemaInspector.validate(SampleSchema, sampleData); // Invalid: candidate at index 2 Property @.customSchemaObject2: is missing and not optional
 ```
 
 ## Test
